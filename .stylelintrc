@@ -1,0 +1,51 @@
+{
+  "ignoreFiles": ["**/*.html", "**/*.js", "**/*.jsx"],
+  "customSyntax": "postcss-scss",
+  "plugins": ["stylelint-scss"],
+  "defaultSeverity": "warning",
+  "rules": {
+    "block-closing-brace-newline-after": "always-single-line",
+    "string-quotes": "single",
+    "color-no-invalid-hex": true,
+    "color-hex-case": "lower",
+    "number-leading-zero": "always",
+    "number-no-trailing-zeros": true,
+    "indentation": 2,
+    "max-line-length": 140,
+    "no-eol-whitespace": null,
+    "comment-no-empty": null,
+    "block-opening-brace-space-before": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-block-semicolon-newline-after": "always",
+    "block-no-empty": null,
+    "block-opening-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "declaration-block-semicolon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "media-feature-colon-space-after": "always",
+    "media-feature-colon-space-before": "never",
+    "media-feature-parentheses-space-inside": "never",
+    "media-feature-range-operator-space-after": "always",
+    "media-feature-range-operator-space-before": "always",
+    "selector-list-comma-newline-after": "always",
+    "selector-list-comma-space-before": "never",
+    "value-list-comma-space-after": "always",
+    "value-list-comma-space-before": "never",
+    "function-comma-space-after": "always",
+    "function-comma-space-before": "never",
+    "function-parentheses-space-inside": "never",
+    "function-whitespace-after": "always",
+    "no-invalid-double-slash-comments": null,
+    "declaration-bang-space-after": "never",
+    "declaration-bang-space-before": "always",
+    "comment-empty-line-before": "never",
+    "comment-whitespace-inside": null,
+    "max-empty-lines": [
+      2,
+      {
+        "ignore": ["comments"]
+      }
+    ]
+  }
+}
