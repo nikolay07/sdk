@@ -4,7 +4,6 @@ import InnerHTML from 'dangerously-set-html-content';
 import classes from './SearchBlock.module.scss';
 
 function SearchBlock({ onChangeFilter, value, isFetching, error, tags }) {
-  console.log(tags);
   return (
     <ErrorBoundary>
       <div className={classes.searchWrappper}>
