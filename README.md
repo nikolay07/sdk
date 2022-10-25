@@ -7,7 +7,6 @@
 ### `npm install`
 3. Start project - use the command:
 ### `npm run project`
-
 4. Open the project in the browser:
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
