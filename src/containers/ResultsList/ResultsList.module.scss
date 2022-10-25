@@ -1,0 +1,39 @@
+.resultWrapper {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  .resultList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-left: 15px;
+    &_item {
+      padding-top: 4px;
+    }
+    &_title {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: black;
+        top: 8px;
+        left: -14px;
+      }
+    }
+    &_tags {
+      display: flex;
+      span {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+

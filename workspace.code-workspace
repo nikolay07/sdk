@@ -33,21 +33,21 @@
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.highlights.customHighlight": {
       "TODO": {
-        "foreground": "yellow",
+        "foreground": "#FFFF00",
         "icon": "check",
         "type": "text"
       },
       "BUG": {
         "icon": "bug",
-        "foreground": "red",
-        "iconColour": "red",
+        "foreground": "#FF0000",
+        "iconColour": "#FF0000",
         "type": "text"
       }
     },
     "editor.quickSuggestionsDelay": 0,
     "editor.suggestSelection": "first",
     "editor.insertSpaces": false,
-    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "files.watcherExclude": {
       "**/.history/**": true
     },

@@ -81,3 +81,7 @@ In this project was used the following technologies:
 - [Scss]
 - [JS-ES6+]
 - [ReactJS]
+- [Express]
+- [React-Query]
+- [Axios]
+- [Prop-types]
